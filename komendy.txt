@@ -4,4 +4,6 @@ autoprefixer-cli -o style.prefixed.css style.css
 ------------------------------------------------
 nu-html-checker
 
-var batch = checker.validate([ '.html']);
+cli --formatter html *.html
+
+node_modules/.bin/nu-html-checker *.html
